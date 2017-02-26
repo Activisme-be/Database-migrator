@@ -3,7 +3,7 @@
 CREATE TABLE IF NOT EXISTS comments (
 	PRIMARY KEY (id),
 	id 		          INT 			     AUTO_INCREMENT,
-	comments          TEXT               DEFAULT NULL,
+	comment           TEXT               DEFAULT NULL,
     updated_at        TIMESTAMP NULL     DEFAULT NULL,
     created_at        TIMESTAMP NULL     DEFAULT NULL,
     deleted_at        TIMESTAMP NULL     DEFAULT NULL
