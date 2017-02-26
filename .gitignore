@@ -3,5 +3,5 @@ clean.sh
 tests/test.sqlite
 vendor
 /bin/phpunit
-.php-database-migration
+.php-database-migration/environments
 .twgit_features_subject
