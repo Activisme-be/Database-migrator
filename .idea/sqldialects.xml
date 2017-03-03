@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/.php-database-migration/migrations/14881398250432_global-create-belgian-cities-table.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/.php-database-migration/migrations/14881399154995_global-create-currencies-tables.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/.php-database-migration/migrations/14881402918914_global-create-countries-table.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/.php-database-migration/migrations/14881431411551_create-the-comments-table.sql" dialect="MySQL" />
+  </component>
+</project>

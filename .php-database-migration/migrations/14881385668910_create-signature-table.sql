@@ -1,8 +1,8 @@
 -- // create signature table
 -- Migration SQL that makes the change goes here.
 CREATE TABLE IF NOT EXISTS signatures (
-	PRIMARY KEY (id),
-	id	                    INT				   AUTO_INCREMENT,
+	  PRIMARY KEY (id),
+	  id	                    INT				         AUTO_INCREMENT,
     publish                 VARCHAR(60)        DEFAULT NULL,
     name                    VARCHAR(20)        DEFAULT NULL,
     birth_data              VARCHAR(10)        DEFAULT NULL,
@@ -15,8 +15,8 @@ CREATE TABLE IF NOT EXISTS signatures (
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
 
 CREATE TABLE IF NOT EXISTS petition_signatures (
-	PRIMARY KEY (id),
-	id	                    INT				   AUTO_INCREMENT,
+	  PRIMARY KEY (id),
+	  id	                    INT				         AUTO_INCREMENT,
     petition_id             INT                DEFAULT NULL,
     signature_id            INT                DEFAULT NULL,
     updated_at              TIMESTAMP NULL     DEFAULT NULL,

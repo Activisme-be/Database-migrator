@@ -1,8 +1,8 @@
 -- // global create categories table
 -- Migration SQL that makes the change goes here.
 CREATE TABLE IF NOT EXISTS categories (
-	PRIMARY KEY (id),
-	id	                    INT				   AUTO_INCREMENT,
+	  PRIMARY KEY (id),
+	  id	                    INT				   AUTO_INCREMENT,
     category_module         VARCHAR(60)        DEFAULT NULL,
     category_name           VARCHAR(255)       DEFAULT NULL,
     category_description    TEXT               DEFAULT NULL,
